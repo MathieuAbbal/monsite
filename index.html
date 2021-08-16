@@ -10,7 +10,7 @@
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Permanent+Marker:400' rel='stylesheet' type='text/css'>
     <script src="https://kit.fontawesome.com/ce2a36e089.js" crossorigin="anonymous"></script>
-    <link src="style.css" rel='stylesheet' type='text/css'>
+    <link href="style.css" rel='stylesheet' type='text/css'>
 
     <meta property="og:title" content="Mathieu développeur Web Junior" />
     <meta property="og:type" content="website" />
@@ -42,9 +42,6 @@
                     <div class="hidden sm:flex flex-grow" id="navbar-collapse">
                         <ul class="flex flex-col mt-3 mb-1 sm:flex-row sm:mx-auto sm:mt-0 sm:mb-0">
                             <li>
-                                <a href="#" class="block text-gray-500 hover:text-gray-300 py-2 sm:mx-2">Accueil</a>
-                            </li>
-                            <li>
                                 <a href="#parcours"
                                     class="block text-gray-500 hover:text-gray-300 py-2 sm:mx-2">Parcours</a>
                             </li>
@@ -67,9 +64,9 @@
                 </nav>
             </div>
         </header>
-        <!--Section Présentation-->
-        <section>
-            <div class="flex flex-col ">
+        <!-- Présentation-->
+        <article>
+            <div class="flex flex-col slide-top  ">
                 <div class="m-auto">
                     <div class="flex flex-col bg-gray-200 shadow-md py-8 px-10 md:px-8 rounded-md m-4">
                         <div class="flex flex-col md:flex-row gap-6 md:gap-8">
@@ -81,9 +78,8 @@
                                         “ Hello 👋 ! je suis Mathieu, extrêmement motivé pour développer constamment mes
                                         compétences et évoluer professionnellement... ”
                                     </h1>
-                                    <p class="pt-4">Aprés une première experience professionnelle en tant qu'ambulancier
-                                        durant 11
-                                        ans, j'ai décidé de faire une reconversion professionnelle dans le développement
+                                    <p class="pt-4">j'ai décidé de faire une reconversion professionnelle dans le
+                                        développement
                                         Web.<br>
                                         Je vous laisse découvrir mon site, n'hésitez pas à me contacter si vous
                                         souhaitez obtenir des informations supplémentaires.
@@ -107,10 +103,11 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <!--Section Formation-->
-        <section>
-            <h2 style="font-family:Permanent Marker, serif;" class="text-center text-lg font-semibold" id="parcours">
+        </article>
+        <!-- Formation-->
+        <article>
+            <h2 style="font-family:Permanent Marker, serif;"
+                class=" md:text-5xl text-base m-2 md:m-4 test text-center text-lg font-semibold" id="parcours">
                 Formation Dévellopeur web chez
                 <a class="text-purple-700" target="blank"
                     href="https://openclassrooms.com/fr/paths/185-developpeur-web">openclassrooms</a>
@@ -125,7 +122,7 @@
                                 <div class="flex flex-col bg-gray-200 shadow-md py-4 px-10 md:px-8 rounded-md m-4 ">
                                     <div class="">
                                         <div class="flex flex-col  md:text-left  md:text-base">
-                                            <h3 class="mb-4 text-center underline text-gray-500 font-extrabold">
+                                            <h3 class="mb-4 text-center underline  font-black">
                                                 Transformer une
                                                 maquette en
                                                 site
@@ -159,7 +156,7 @@
                         <div class="flex flex-col bg-gray-200 shadow-md py-4 px-10 md:px-8 rounded-md m-4">
                             <div class="flex flex-col md:flex-row gap-6 md:gap-8">
                                 <div class="flex flex-col  md:text-left  md:text-base">
-                                    <h3 class="mb-4 text-center underline text-gray-500 font-extrabold">Dynamiser une
+                                    <h3 class="mb-4 text-center underline font-black">Dynamiser une
                                         page web avec des
                                         animations CSS</h3>
                                     <ul class="list-none">
@@ -182,7 +179,7 @@
                         <div class="flex flex-col bg-gray-200 shadow-md py-4 px-10 md:px-8 rounded-md m-4">
                             <div class="flex flex-col md:flex-row gap-6 md:gap-8">
                                 <div class="flex flex-col  md:text-left  md:text-base">
-                                    <h3 class="mb-4 text-center underline text-gray-500 font-extrabold">Optimiser un
+                                    <h3 class="mb-4 text-center underline font-black">Optimiser un
                                         site web existant
                                     </h3>
                                     <ul class="list-none">
@@ -208,7 +205,7 @@
                         <div class="flex flex-col bg-gray-200 shadow-md py-4 px-10 md:px-8 rounded-md m-4">
                             <div class="">
                                 <div class="flex flex-col  md:text-left  md:text-base">
-                                    <h3 class="mb-4 text-center underline text-gray-500 font-extrabold">Construire un
+                                    <h3 class="mb-4 text-center underline font-black">Construire un
                                         site
                                         e-commerce
                                     </h3>
@@ -233,7 +230,7 @@
                         <div class="flex flex-col bg-gray-200 shadow-md py-4 px-10 md:px-8 rounded-md m-4">
 
                             <div class="flex flex-col  md:text-left  md:text-base">
-                                <h3 class="mb-4 text-center underline text-gray-500 font-extrabold">Construire une API
+                                <h3 class="mb-4 text-center underline font-black">Construire une API
                                     sécurisée
                                 </h3>
                                 <ul class="list-none">
@@ -256,7 +253,7 @@
                         <div class="flex flex-col bg-gray-200 shadow-md py-4 px-10 md:px-8 rounded-md m-4">
 
                             <div class="flex flex-col  md:text-left  md:text-base">
-                                <h3 class="mb-4 text-center underline text-gray-500 font-extrabold">Créer un réseau
+                                <h3 class="mb-4 text-center underline font-black">Créer un réseau
                                     social d’entreprise
                                 </h3>
                                 <ul class="list-none">
@@ -276,50 +273,78 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <!--Section technologies-->
-        <section>
-            <h2 class="text-center text-lg font-semibold" id="skills" style="font-family:Permanent Marker, serif;">
-                Technologies:</h2>
+        </article>
+        <!-- Technologies-->
+        <article>
+            <h2 class="md:text-5xl text-base m-2 md:m-4 text-center text-lg font-semibold" id="skills"
+                style="font-family:Permanent Marker, serif;">
+                Technologies :</h2>
             <div class="p-4 grid grid-cols-2 gap-6 mb-12 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 2xl:grid-cols-6">
-                <div
-                    class="bg-gray-200 flex justify-center px-6 py-8 transition-all transform cursor-pointer md:py-10 rounded-2xl card-color group md:hover:-translate-y-2">
+                <a href="https://openclassrooms.com/fr/course-certificates/2512496662" target="blank">
+                    <section
+                        class="bg-gray-200 flex justify-center px-6 py-8 transition-all transform cursor-pointer md:py-10 rounded-2xl card-color group md:hover:-translate-y-2">
 
-                    <div class="flex flex-col items-center space-y-2"><svg role="img" viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" class="w-8 h-8 fill-current">
-                            <path
-                                d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z">
-                            </path>
-                        </svg>
-                        <div class="text-lg font-semibold text-center mt-auto">HTML5</div>
-                    </div>
-                </div>
-                <div
-                    class="bg-gray-200 flex justify-center px-6 py-8 transition-all transform cursor-pointer md:py-10 rounded-2xl card-color group md:hover:-translate-y-2">
+                        <div class="absolute transition-opacity opacity-0 group-hover:opacity-100 top-4 right-4"><svg
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                                class="w-6 h-6">
+                                <path troke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                            </svg></div>
+                        <div class="flex flex-col items-center space-y-2">
+                            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24px"
+                                height="24px" class="w-8 h-8 fill-current">
+                                <path
+                                    d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z">
+                                </path>
+                            </svg>
 
-                    <div class="flex flex-col items-center space-y-2"><svg role="img" viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" class="w-8 h-8 fill-current">
-                            <path
-                                d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z">
-                            </path>
-                        </svg>
-                        <div class="text-lg font-semibold text-center mt-auto">CSS3</div>
-                    </div>
-                </div>
-                <div
-                    class="bg-gray-200 flex justify-center px-6 py-8 transition-all transform cursor-pointer md:py-10 rounded-2xl card-color group md:hover:-translate-y-2">
+                            <div class="text-lg font-semibold text-center mt-auto">HTML5</div>
+                        </div>
+                    </section>
 
-                    <div class="flex flex-col items-center space-y-2"><svg role="img" viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" class="w-8 h-8 fill-current">
-                            <path
-                                d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z">
-                            </path>
-                        </svg>
-                        <div class="text-lg font-semibold text-center mt-auto">JavaScript</div>
-                    </div>
-                </div>
+                </a>
+                <a href="https://openclassrooms.com/fr/course-certificates/4869145487" target="blank">
+                    <section
+                        class="bg-gray-200 flex justify-center px-6 py-8 transition-all transform cursor-pointer md:py-10 rounded-2xl card-color group md:hover:-translate-y-2">
+                        <div class="absolute transition-opacity opacity-0 group-hover:opacity-100 top-4 right-4"><svg
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                                class="w-6 h-6">
+                                <path troke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                            </svg></div>
+                        <div class="flex flex-col items-center space-y-2"><svg role="img" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg" width="24px" height="24px"
+                                class="w-8 h-8 fill-current">
+                                <path
+                                    d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z">
+                                </path>
+                            </svg>
+                            <div class="text-lg font-semibold text-center mt-auto">CSS3</div>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://openclassrooms.com/fr/course-certificates/2213253840" target="blank">
+                    <section
+                        class="bg-gray-200 flex justify-center px-6 py-8 transition-all transform cursor-pointer md:py-10 rounded-2xl card-color group md:hover:-translate-y-2">
+                        <div class="absolute transition-opacity opacity-0 group-hover:opacity-100 top-4 right-4"><svg
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                                class="w-6 h-6">
+                                <path troke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                            </svg></div>
+                        <div class="flex flex-col items-center space-y-2"><svg role="img" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg" width="24px" height="24px"
+                                class="w-8 h-8 fill-current">
+                                <path
+                                    d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z">
+                                </path>
+                            </svg>
+                            <div class="text-lg font-semibold text-center mt-auto">JavaScript</div>
+                        </div>
+                    </section>
+                </a>
 
-                <div
+                <section
                     class="bg-gray-200 flex justify-center px-6 py-8 transition-all transform cursor-pointer md:py-10 rounded-2xl card-color group md:hover:-translate-y-2">
 
                     <div class="flex flex-col items-center space-y-2"><svg role="img" viewBox="0 0 24 24"
@@ -330,9 +355,9 @@
                         </svg>
                         <div class="text-lg font-semibold text-center mt-auto">Vue.js</div>
                     </div>
-                </div>
+                </section>
 
-                <div
+                <section
                     class="bg-gray-200 flex justify-center px-6 py-8 transition-all transform cursor-pointer md:py-10 rounded-2xl card-color group md:hover:-translate-y-2">
 
                     <div class="flex flex-col items-center space-y-2"><svg role="img" viewBox="0 0 24 24"
@@ -343,32 +368,48 @@
                         </svg>
                         <div class="text-lg font-semibold text-center mt-auto">Tailwind CSS</div>
                     </div>
-                </div>
-                <div
-                    class="bg-gray-200 flex justify-center px-6 py-8 transition-all transform cursor-pointer md:py-10 rounded-2xl card-color group md:hover:-translate-y-2">
-
-                    <div class="flex flex-col items-center space-y-2"><svg role="img" viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" class="w-8 h-8 fill-current">
-                            <path
-                                d="M11.998,24c-0.321,0-0.641-0.084-0.922-0.247l-2.936-1.737c-0.438-0.245-0.224-0.332-0.08-0.383 c0.585-0.203,0.703-0.25,1.328-0.604c0.065-0.037,0.151-0.023,0.218,0.017l2.256,1.339c0.082,0.045,0.197,0.045,0.272,0l8.795-5.076 c0.082-0.047,0.134-0.141,0.134-0.238V6.921c0-0.099-0.053-0.192-0.137-0.242l-8.791-5.072c-0.081-0.047-0.189-0.047-0.271,0 L3.075,6.68C2.99,6.729,2.936,6.825,2.936,6.921v10.15c0,0.097,0.054,0.189,0.139,0.235l2.409,1.392 c1.307,0.654,2.108-0.116,2.108-0.89V7.787c0-0.142,0.114-0.253,0.256-0.253h1.115c0.139,0,0.255,0.112,0.255,0.253v10.021 c0,1.745-0.95,2.745-2.604,2.745c-0.508,0-0.909,0-2.026-0.551L2.28,18.675c-0.57-0.329-0.922-0.945-0.922-1.604V6.921 c0-0.659,0.353-1.275,0.922-1.603l8.795-5.082c0.557-0.315,1.296-0.315,1.848,0l8.794,5.082c0.57,0.329,0.924,0.944,0.924,1.603 v10.15c0,0.659-0.354,1.273-0.924,1.604l-8.794,5.078C12.643,23.916,12.324,24,11.998,24z M19.099,13.993 c0-1.9-1.284-2.406-3.987-2.763c-2.731-0.361-3.009-0.548-3.009-1.187c0-0.528,0.235-1.233,2.258-1.233 c1.807,0,2.473,0.389,2.747,1.607c0.024,0.115,0.129,0.199,0.247,0.199h1.141c0.071,0,0.138-0.031,0.186-0.081 c0.048-0.054,0.074-0.123,0.067-0.196c-0.177-2.098-1.571-3.076-4.388-3.076c-2.508,0-4.004,1.058-4.004,2.833 c0,1.925,1.488,2.457,3.895,2.695c2.88,0.282,3.103,0.703,3.103,1.269c0,0.983-0.789,1.402-2.642,1.402 c-2.327,0-2.839-0.584-3.011-1.742c-0.02-0.124-0.126-0.215-0.253-0.215h-1.137c-0.141,0-0.254,0.112-0.254,0.253 c0,1.482,0.806,3.248,4.655,3.248C17.501,17.007,19.099,15.91,19.099,13.993z">
-                            </path>
-                        </svg>
-                        <div class="text-lg font-semibold text-center mt-auto">Node.js</div>
-                    </div>
-                </div>
-                <div
-                    class="bg-gray-200 flex justify-center px-6 py-8 transition-all transform cursor-pointer md:py-10 rounded-2xl card-color group md:hover:-translate-y-2">
-
-                    <div class="flex flex-col items-center space-y-2"><svg role="img" viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" class="w-8 h-8 fill-current">
-                            <path
-                                d="M32 24.795c-1.164.296-1.884.013-2.53-.957l-4.594-6.356-.664-.88-5.365 7.257c-.613.873-1.256 1.253-2.4.944l6.87-9.222-6.396-8.33c1.1-.214 1.86-.105 2.535.88l4.765 6.435 4.8-6.4c.615-.873 1.276-1.205 2.38-.883l-2.48 3.288-3.36 4.375c-.4.5-.345.842.023 1.325L32 24.795zM.008 15.427l.562-2.764C2.1 7.193 8.37 4.92 12.694 8.3c2.527 1.988 3.155 4.8 3.03 7.95H1.48c-.214 5.67 3.867 9.092 9.07 7.346 1.825-.613 2.9-2.042 3.438-3.83.273-.896.725-1.036 1.567-.78-.43 2.236-1.4 4.104-3.45 5.273-3.063 1.75-7.435 1.184-9.735-1.248C1 21.6.434 19.812.18 17.9c-.04-.316-.12-.617-.18-.92q.008-.776.008-1.552zm1.498-.38h12.872c-.084-4.1-2.637-7.012-6.126-7.037-3.83-.03-6.58 2.813-6.746 7.037z">
-                            </path>
-                        </svg>
-                        <div class="text-lg font-semibold text-center mt-auto">Express.js</div>
-                    </div>
-                </div>
-                <div
+                </section>
+                <a href="https://openclassrooms.com/fr/course-certificates/2262548903" target="blank">
+                    <section
+                        class="bg-gray-200 flex justify-center px-6 py-8 transition-all transform cursor-pointer md:py-10 rounded-2xl card-color group md:hover:-translate-y-2">
+                        <div class="absolute transition-opacity opacity-0 group-hover:opacity-100 top-4 right-4"><svg
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                                class="w-6 h-6">
+                                <path troke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                            </svg></div>
+                        <div class="flex flex-col items-center space-y-2"><svg role="img" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg" width="24px" height="24px"
+                                class="w-8 h-8 fill-current">
+                                <path
+                                    d="M11.998,24c-0.321,0-0.641-0.084-0.922-0.247l-2.936-1.737c-0.438-0.245-0.224-0.332-0.08-0.383 c0.585-0.203,0.703-0.25,1.328-0.604c0.065-0.037,0.151-0.023,0.218,0.017l2.256,1.339c0.082,0.045,0.197,0.045,0.272,0l8.795-5.076 c0.082-0.047,0.134-0.141,0.134-0.238V6.921c0-0.099-0.053-0.192-0.137-0.242l-8.791-5.072c-0.081-0.047-0.189-0.047-0.271,0 L3.075,6.68C2.99,6.729,2.936,6.825,2.936,6.921v10.15c0,0.097,0.054,0.189,0.139,0.235l2.409,1.392 c1.307,0.654,2.108-0.116,2.108-0.89V7.787c0-0.142,0.114-0.253,0.256-0.253h1.115c0.139,0,0.255,0.112,0.255,0.253v10.021 c0,1.745-0.95,2.745-2.604,2.745c-0.508,0-0.909,0-2.026-0.551L2.28,18.675c-0.57-0.329-0.922-0.945-0.922-1.604V6.921 c0-0.659,0.353-1.275,0.922-1.603l8.795-5.082c0.557-0.315,1.296-0.315,1.848,0l8.794,5.082c0.57,0.329,0.924,0.944,0.924,1.603 v10.15c0,0.659-0.354,1.273-0.924,1.604l-8.794,5.078C12.643,23.916,12.324,24,11.998,24z M19.099,13.993 c0-1.9-1.284-2.406-3.987-2.763c-2.731-0.361-3.009-0.548-3.009-1.187c0-0.528,0.235-1.233,2.258-1.233 c1.807,0,2.473,0.389,2.747,1.607c0.024,0.115,0.129,0.199,0.247,0.199h1.141c0.071,0,0.138-0.031,0.186-0.081 c0.048-0.054,0.074-0.123,0.067-0.196c-0.177-2.098-1.571-3.076-4.388-3.076c-2.508,0-4.004,1.058-4.004,2.833 c0,1.925,1.488,2.457,3.895,2.695c2.88,0.282,3.103,0.703,3.103,1.269c0,0.983-0.789,1.402-2.642,1.402 c-2.327,0-2.839-0.584-3.011-1.742c-0.02-0.124-0.126-0.215-0.253-0.215h-1.137c-0.141,0-0.254,0.112-0.254,0.253 c0,1.482,0.806,3.248,4.655,3.248C17.501,17.007,19.099,15.91,19.099,13.993z">
+                                </path>
+                            </svg>
+                            <div class="text-lg font-semibold text-center mt-auto">Node.js</div>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://openclassrooms.com/fr/course-certificates/2262548903" target="blank">
+                    <section
+                        class="bg-gray-200 flex justify-center px-6 py-8 transition-all transform cursor-pointer md:py-10 rounded-2xl card-color group md:hover:-translate-y-2">
+                        <div class="absolute transition-opacity opacity-0 group-hover:opacity-100 top-4 right-4"><svg
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                                class="w-6 h-6">
+                                <path troke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                            </svg></div>
+                        <div class="flex flex-col items-center space-y-2"><svg role="img" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg" width="24px" height="24px"
+                                class="w-8 h-8 fill-current">
+                                <path
+                                    d="M32 24.795c-1.164.296-1.884.013-2.53-.957l-4.594-6.356-.664-.88-5.365 7.257c-.613.873-1.256 1.253-2.4.944l6.87-9.222-6.396-8.33c1.1-.214 1.86-.105 2.535.88l4.765 6.435 4.8-6.4c.615-.873 1.276-1.205 2.38-.883l-2.48 3.288-3.36 4.375c-.4.5-.345.842.023 1.325L32 24.795zM.008 15.427l.562-2.764C2.1 7.193 8.37 4.92 12.694 8.3c2.527 1.988 3.155 4.8 3.03 7.95H1.48c-.214 5.67 3.867 9.092 9.07 7.346 1.825-.613 2.9-2.042 3.438-3.83.273-.896.725-1.036 1.567-.78-.43 2.236-1.4 4.104-3.45 5.273-3.063 1.75-7.435 1.184-9.735-1.248C1 21.6.434 19.812.18 17.9c-.04-.316-.12-.617-.18-.92q.008-.776.008-1.552zm1.498-.38h12.872c-.084-4.1-2.637-7.012-6.126-7.037-3.83-.03-6.58 2.813-6.746 7.037z">
+                                </path>
+                            </svg>
+                            <div class="text-lg font-semibold text-center mt-auto">Express.js</div>
+                        </div>
+                    </section>
+                </a>
+                <section
                     class="bg-gray-200 flex justify-center px-6 py-8 transition-all transform cursor-pointer md:py-10 rounded-2xl card-color group md:hover:-translate-y-2">
 
                     <div class="flex flex-col items-center space-y-2"><svg role="img" viewBox="0 0 24 24"
@@ -379,8 +420,8 @@
                         </svg>
                         <div class="text-lg font-semibold text-center mt-auto">MySQL</div>
                     </div>
-                </div>
-                <div
+                </section>
+                <section
                     class="bg-gray-200 flex justify-center px-6 py-8 transition-all transform cursor-pointer md:py-10 rounded-2xl card-color group md:hover:-translate-y-2">
 
                     <div class="flex flex-col items-center space-y-2"><svg role="img" viewBox="0 0 24 24"
@@ -395,44 +436,60 @@
                         </svg>
                         <div class="text-lg font-semibold text-center mt-auto">MongoDB</div>
                     </div>
-                </div>
+                </section>
             </div>
-        </section>
-        <!--Section Outils-->
-        <section>
-            <h2 class="text-center text-lg font-semibold" id="outils" style="font-family:Permanent Marker, serif;">
-                Outils:</h2>
+        </article>
+        <!--Outils-->
+        <article>
+            <h2 class="md:text-5xl text-base m-2 md:m-4 text-center text-lg font-semibold" id="outils"
+                style="font-family:Permanent Marker, serif;">
+                Outils :</h2>
             <div class="p-4 grid grid-cols-2 gap-6 mb-12 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 2xl:grid-cols-6">
-                <div
-                    class="bg-gray-200 flex justify-center px-6 py-8 transition-all transform cursor-pointer md:py-10 rounded-2xl card-color group md:hover:-translate-y-2">
+                <a href="https://openclassrooms.com/fr/course-certificates/6347892541">
+                    <section
+                        class="bg-gray-200 flex justify-center px-6 py-8 transition-all transform cursor-pointer md:py-10 rounded-2xl card-color group md:hover:-translate-y-2">
+                        <div class="absolute transition-opacity opacity-0 group-hover:opacity-100 top-4 right-4"><svg
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                                class="w-6 h-6">
+                                <path troke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                            </svg></div>
 
+                        <div class="flex flex-col items-center space-y-2"><svg role="img" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg" width="24px" height="24px"
+                                class="w-8 h-8 fill-current">
+                                <path
+                                    d="M23.546 10.93L13.067.452c-.604-.603-1.582-.603-2.188 0L8.708 2.627l2.76 2.76c.645-.215 1.379-.07 1.889.441.516.515.658 1.258.438 1.9l2.658 2.66c.645-.223 1.387-.078 1.9.435.721.72.721 1.884 0 2.604-.719.719-1.881.719-2.6 0-.539-.541-.674-1.337-.404-1.996L12.86 8.955v6.525c.176.086.342.203.488.348.713.721.713 1.883 0 2.6-.719.721-1.889.721-2.609 0-.719-.719-.719-1.879 0-2.598.182-.18.387-.316.605-.406V8.835c-.217-.091-.424-.222-.6-.401-.545-.545-.676-1.342-.396-2.009L7.636 3.7.45 10.881c-.6.605-.6 1.584 0 2.189l10.48 10.477c.604.604 1.582.604 2.186 0l10.43-10.43c.605-.603.605-1.582 0-2.187">
+                                </path>
+                            </svg>
+                            </svg>
+                            <div class=" text-lg font-semibold text-center mt-auto">Git</div>
+                        </div>
+                    </section>
+                </a>
 
-                    <div class="flex flex-col items-center space-y-2"><svg role="img" viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" class="w-8 h-8 fill-current">
-                            <path
-                                d="M23.546 10.93L13.067.452c-.604-.603-1.582-.603-2.188 0L8.708 2.627l2.76 2.76c.645-.215 1.379-.07 1.889.441.516.515.658 1.258.438 1.9l2.658 2.66c.645-.223 1.387-.078 1.9.435.721.72.721 1.884 0 2.604-.719.719-1.881.719-2.6 0-.539-.541-.674-1.337-.404-1.996L12.86 8.955v6.525c.176.086.342.203.488.348.713.721.713 1.883 0 2.6-.719.721-1.889.721-2.609 0-.719-.719-.719-1.879 0-2.598.182-.18.387-.316.605-.406V8.835c-.217-.091-.424-.222-.6-.401-.545-.545-.676-1.342-.396-2.009L7.636 3.7.45 10.881c-.6.605-.6 1.584 0 2.189l10.48 10.477c.604.604 1.582.604 2.186 0l10.43-10.43c.605-.603.605-1.582 0-2.187">
-                            </path>
-                        </svg>
-                        </svg>
-                        <div class=" text-lg font-semibold text-center mt-auto">Git</div>
-                    </div>
-                </div>
+                <a href="https://openclassrooms.com/fr/course-certificates/6347892541">
+                    <section
+                        class="bg-gray-200 flex justify-center px-6 py-8 transition-all transform cursor-pointer md:py-10 rounded-2xl card-color group md:hover:-translate-y-2">
+                        <div class="absolute transition-opacity opacity-0 group-hover:opacity-100 top-4 right-4"><svg
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                                class="w-6 h-6">
+                                <path troke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+                            </svg></div>
 
-
-                <div
-                    class="bg-gray-200 flex justify-center px-6 py-8 transition-all transform cursor-pointer md:py-10 rounded-2xl card-color group md:hover:-translate-y-2">
-
-                    <div class="flex flex-col items-center space-y-2">
-                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24px"
-                            height="24px" class="w-8 h-8 fill-current">
-                            <path
-                                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z">
-                            </path>
-                        </svg>
-                        <div class="text-lg font-semibold text-center mt-auto">GitHub</div>
-                    </div>
-                </div>
-                <div
+                        <div class="flex flex-col items-center space-y-2">
+                            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24px"
+                                height="24px" class="w-8 h-8 fill-current">
+                                <path
+                                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z">
+                                </path>
+                            </svg>
+                            <div class="text-lg font-semibold text-center mt-auto">GitHub</div>
+                        </div>
+                    </section>
+                </a>
+                <section
                     class="bg-gray-200 flex justify-center px-6 py-8 transition-all transform cursor-pointer md:py-10 rounded-2xl card-color group md:hover:-translate-y-2">
 
                     <div class="flex flex-col items-center space-y-2">
@@ -444,24 +501,24 @@
                         </svg>
                         <div class="text-lg font-semibold text-center mt-auto">Heroku</div>
                     </div>
-                </div>
-                <div
+                </section>
+                <section
                     class="bg-gray-200 flex justify-center px-6 py-8 transition-all transform cursor-pointer md:py-10 rounded-2xl card-color group md:hover:-translate-y-2">
 
 
-                    <div class="flex flex-col items-center space-y-2"><svg role="img" viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" class="w-8 h-8 fill-current">
+                    <div class="flex flex-col items-center space-y-2">
+                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24px"
+                            height="24px" class="w-8 h-8 fill-current">
                             <path
                                 d="M23.15 2.587L18.21.21a1.494 1.494 0 0 0-1.705.29l-9.46 8.63-4.12-3.128a.999.999 0 0 0-1.276.057L.327 7.261A1 1 0 0 0 .326 8.74L3.899 12 .326 15.26a1 1 0 0 0 .001 1.479L1.65 17.94a.999.999 0 0 0 1.276.057l4.12-3.128 9.46 8.63a1.492 1.492 0 0 0 1.704.29l4.942-2.377A1.5 1.5 0 0 0 24 20.06V3.939a1.5 1.5 0 0 0-.85-1.352zm-5.146 14.861L10.826 12l7.178-5.448v10.896z">
                             </path>>
                         </svg>
-                        </svg>
                         <div class=" text-lg font-semibold text-center mt-auto">VS Code</div>
                     </div>
-                </div>
+                </section>
 
 
-                <!--     <div
+                <!--     <section
                     class="bg-gray-200 flex justify-center px-6 py-8 transition-all transform cursor-pointer md:py-10 rounded-2xl card-color group md:hover:-translate-y-2">
                     <div class="flex flex-col items-center space-y-2">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" class="w-8 h-8 fill-current">
@@ -529,19 +586,20 @@
                         </svg>
                         <div class=" text-lg font-semibold text-center mt-auto">Sequelize</div>
                     </div>
-                </div>-->
+                </section>-->
 
             </div>
 
-        </section>
-        <!--Section portfolio-->
-        <section>
-            <h2 style="font-family:Permanent Marker, serif;" class="text-center text-lg font-semibold" id="portfolio">
-                Portfolio:</h2>
+        </article>
+        <!-- portfolio-->
+        <article>
+            <h2 style="font-family:Permanent Marker, serif;"
+                class="md:text-5xl text-base m-2 md:m-4 text-center text-lg font-semibold" id="portfolio">
+                Portfolio :</h2>
 
             <div class="flex flex-wrap">
                 <!--Reservia P2-->
-                <div
+                <section
                     class="my-3 px-3 w-full overflow-hidden sm:my-3 sm:px-3 sm:w-full md:my-4 md:px-4 md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2 xl:my-3 xl:px-3 xl:w-1/3">
                     <div class="flex flex-col items-end bg-gray-200 shadow-md py-4 px-10 md:px-8 rounded-md m-4">
                         <div class="flex">
@@ -553,7 +611,7 @@
                         <div x-data="{ show: false }">
                             <div class="flex justify-center">
                                 <button @click={show=true} type="button"
-                                    class="leading-tight bg-gray-900 hover:bg-green-600 text-gray-200 rounded px-6 py-3 text-sm focus:outline-none focus:border-white">Voir
+                                    class="transform hover:-translate-y-1 hover:scale-110 transition duration-500 ease-in-out leading-tight bg-gray-900 hover:bg-green-600 text-gray-200 rounded px-6 py-3 text-sm focus:outline-none focus:border-white">Voir
                                     plus</Button>
                             </div>
                             <div x-show="show" tabindex="0"
@@ -568,11 +626,11 @@
                                             <p>Code source: <a
                                                     href="https://github.com/MathieuAbbal/MathieuAbbal_2_27102020"
                                                     target="blank" class="hover:cursor-pointer hover:text-blue-500"><i
-                                                        class="fab fa-github-square fa-2x"></i></a></p>
+                                                        class="fab fa-github-square fa-2x ml-2"></i></a></p>
                                             <p>Voir le site: <a
                                                     href="https://mathieuabbal.github.io/MathieuAbbal_2_27102020/"
                                                     target="blank" class="hover:cursor-pointer hover:text-blue-500"><i
-                                                        class="fas fa-desktop fa-2x"></i></a></p>
+                                                        class="fas fa-desktop fa-2x ml-6"></i></a></p>
                                         </div>
                                         <div class="relative p-6 flex-auto">
                                             <p class="my-4 text-blueGray-500 text-lg leading-relaxed">
@@ -595,9 +653,9 @@
                         </div>
 
                     </div>
-                </div>
+                </section>
                 <!--OhmyFood P3-->
-                <div
+                <section
                     class="my-3 px-3 w-full overflow-hidden sm:my-3 sm:px-3 sm:w-full md:my-4 md:px-4 md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2 xl:my-3 xl:px-3 xl:w-1/3">
                     <div class="flex flex-col items-end bg-gray-200 shadow-md py-4 px-10 md:px-8 rounded-md m-4">
                         <div class="flex">
@@ -609,7 +667,7 @@
                         <div x-data="{ show: false }">
                             <div class="flex justify-center">
                                 <button @click={show=true} type="button"
-                                    class="leading-tight bg-gray-900 hover:bg-green-600 text-gray-200 rounded px-6 py-3 text-sm focus:outline-none focus:border-white">Voir
+                                    class="transform hover:-translate-y-1 hover:scale-110 transition duration-500 ease-in-out leading-tight bg-gray-900 hover:bg-green-600 text-gray-200 rounded px-6 py-3 text-sm focus:outline-none focus:border-white">Voir
                                     plus</Button>
                             </div>
                             <div x-show="show" tabindex="0"
@@ -650,10 +708,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </section>
 
                 <!--La chouette agence P4-->
-                <div
+                <section
                     class="my-3 px-3 w-full overflow-hidden sm:my-3 sm:px-3 sm:w-full md:my-4 md:px-4 md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2 xl:my-3 xl:px-3 xl:w-1/3">
                     <div class="flex flex-col items-end bg-gray-200 shadow-md py-4 px-10 md:px-8 rounded-md m-4">
                         <div class="flex">
@@ -664,7 +722,7 @@
                         <div x-data="{ show: false }">
                             <div class="flex justify-center">
                                 <button @click={show=true} type="button"
-                                    class="leading-tight bg-gray-900 hover:bg-green-600 text-gray-200 rounded px-6 py-3 text-sm focus:outline-none focus:border-white">Voir
+                                    class="transform hover:-translate-y-1 hover:scale-110 transition duration-500 ease-in-out leading-tight bg-gray-900 hover:bg-green-600 text-gray-200 rounded px-6 py-3 text-sm focus:outline-none focus:border-white">Voir
                                     plus</Button>
                             </div>
                             <div x-show="show" tabindex="0"
@@ -707,21 +765,21 @@
                         </div>
 
                     </div>
-                </div>
+                </section>
                 <!--Orinoco P5-->
-                <div
+                <section
                     class="my-3 px-3 w-full overflow-hidden sm:my-3 sm:px-3 sm:w-full md:my-4 md:px-4 md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2 xl:my-3 xl:px-3 xl:w-1/3">
                     <div class="flex flex-col items-end bg-gray-200 shadow-md py-4 px-10 md:px-8 rounded-md m-4">
                         <div class="flex">
-                            <img class="w-1/2 m-4" src="img/orinoco.png" alt="logo orinoco">
+                            <img class="w-2/5 m-4" src="img/orinoco.png" alt="logo orinoco">
                         </div>
-                        <p class="text-gray-500 mb-3">Création d'un site de e-commerce<br>
-                            Application web sur la thématique des appareils photo vintage.
+                        <p class="text-gray-500 mb-3">Création d'un site de e-commerce sur la thématique des appareils
+                            photo vintage.
                         </p>
                         <div x-data="{ show: false }">
                             <div class="flex justify-center">
                                 <button @click={show=true} type="button"
-                                    class="leading-tight bg-gray-900 hover:bg-green-600 text-gray-200 rounded px-6 py-3 text-sm focus:outline-none focus:border-white">Voir
+                                    class="transform hover:-translate-y-1 hover:scale-110 transition duration-500 ease-in-out leading-tight bg-gray-900 hover:bg-green-600 text-gray-200 rounded px-6 py-3 text-sm focus:outline-none focus:border-white">Voir
                                     plus</Button>
                             </div>
                             <div x-show="show" tabindex="0"
@@ -763,9 +821,9 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </section>
                 <!--So Pekocko P6-->
-                <div
+                <section
                     class="my-3 px-3 w-full overflow-hidden sm:my-3 sm:px-3 sm:w-full md:my-4 md:px-4 md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2 xl:my-3 xl:px-3 xl:w-1/3">
                     <div class="flex flex-col items-end bg-gray-200 shadow-md py-4 px-10 md:px-8 rounded-md m-4">
                         <div class="flex">
@@ -777,7 +835,7 @@
                         <div x-data="{ show: false }">
                             <div class="flex justify-center">
                                 <button @click={show=true} type="button"
-                                    class="leading-tight bg-gray-900 hover:bg-green-600 text-gray-200 rounded px-6 py-3 text-sm focus:outline-none focus:border-white">Voir
+                                    class="transform hover:-translate-y-1 hover:scale-110 transition duration-500 ease-in-out leading-tight bg-gray-900 hover:bg-green-600 text-gray-200 rounded px-6 py-3 text-sm focus:outline-none focus:border-white">Voir
                                     plus</Button>
                             </div>
                             <div x-show="show" tabindex="0"
@@ -787,7 +845,7 @@
                                     <div class="bg-white rounded shadow-lg border flex flex-col overflow-hidden">
                                         <button @click={show=false}
                                             class="fill-current h-6 w-6 absolute right-0 top-0 m-6 font-3xl font-bold">&times;</button>
-                                        <div class="px-6 py-3 text-xl border-b font-bold">So Pekocko</div>
+                                        <div class="px-6 py-3 text-xl border-b font-bold">Piiquante</div>
                                         <div class="p-6">
                                             <p>Code source: <a
                                                     href="https://github.com/MathieuAbbal/MathieuAbbal_6_12042021"
@@ -816,25 +874,78 @@
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div
+                </section>
+                <!--Groupomania P7-->
+                <section
                     class="my-3 px-3 w-full overflow-hidden sm:my-3 sm:px-3 sm:w-full md:my-4 md:px-4 md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2 xl:my-3 xl:px-3 xl:w-1/3">
-                    <!-- Column Content -->
-                </div>
+                    <div class="flex flex-col items-end bg-gray-200 shadow-md py-4 px-10 md:px-8 rounded-md m-4">
+                        <div class="flex">
+                            <img class="w-1/2 m-4" src="img/groupomania.png" alt="logo groupomania">
+                        </div>
+                        <p class="text-gray-500 mb-3">
+                            Le projet consiste à construire un réseau social interne pour les employés de Groupomania.
+                        </p>
+                        <div x-data="{ show: false }">
+                            <div class="flex justify-center">
+                                <button @click={show=true} type="button"
+                                    class="transform hover:-translate-y-1 hover:scale-110 transition duration-500 ease-in-out leading-tight bg-gray-900 hover:bg-green-600 text-gray-200 rounded px-6 py-3 text-sm focus:outline-none focus:border-white">Voir
+                                    plus</Button>
+                            </div>
+                            <div x-show="show" tabindex="0"
+                                class="z-40 overflow-auto left-0 top-0 bottom-0 right-0 w-full h-full fixed">
+                                <div @click.away="show = false" class="z-50 relative p-3 mx-auto my-0 max-w-full"
+                                    style="width: 600px;">
+                                    <div class="bg-white rounded shadow-lg border flex flex-col overflow-hidden">
+                                        <button @click={show=false}
+                                            class="fill-current h-6 w-6 absolute right-0 top-0 m-6 font-3xl font-bold">&times;</button>
+                                        <div class="px-6 py-3 text-xl border-b font-bold">Groupomania</div>
+                                        <div class="p-6">
+                                            <p>Code source: <a
+                                                    href="https://github.com/MathieuAbbal/MathieuAbbal_7_14052021"
+                                                    target="blank" class="hover:cursor-pointer hover:text-blue-500"><i
+                                                        class="fab fa-github-square fa-2x"></i></a></p>
+                                        </div>
+                                        <div class="relative p-6 flex-auto">
+                                            <p class="my-4 text-blueGray-500 text-lg leading-relaxed">
+                                                <br>
+
+                                            </p>
+                                            <h3 class="text-center uppercase font-bold ">Page publication :</h3>
+                                            <img src="img/groupo1.png" alt="maquette">
+                                            <h3 class="text-center uppercase font-bold ">Page profil :</h3>
+                                            <img src="img/groupo2.png" alt="maquette">
+
+                                        </div>
+                                        <div class="px-6 py-3 border-t">
+                                            <div class="flex justify-end">
+                                                <button @click={show=false} type="button"
+                                                    class="bg-gray-700 text-gray-100 rounded px-4 py-2 mr-1">Fermer</Button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="z-40 overflow-auto left-0 top-0 bottom-0 right-0 w-full h-full fixed bg-black opacity-50">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
-        </section>
+        </article>
         <!-- Section Contact-->
-        <section>
-            <h2 class="text-center text-lg font-semibold" id="contact" style="font-family:Permanent Marker, serif;">
-                Contact:</h2>
+        <article>
+            <h2 class="md:text-5xl text-base m-2 md:m-4 text-center text-lg font-semibold" id="contact"
+                style="font-family:Permanent Marker, serif;">
+                Contact :</h2>
             <div class="flex justify-center">
                 <iframe
                     src="https://docs.google.com/forms/d/e/1FAIpQLSdygGSilXSkYrc1VRDYe-NXwhG6prdQxAL6EdWgRL21wtpLmw/viewform?embedded=true"
                     width="640" height="940" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
             </div>
-        </section>
+        </article>
     </div>
+
     <script src="index.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
 
